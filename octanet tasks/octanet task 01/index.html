@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Conference 2024</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#eventDetails">Event Details</a></li>
+                <li><a href="#speakerProfiles">Speakers</a></li>
+                <li><a href="#ticketOptions">Tickets</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Tech Conference 2024</h1>
+    </header>
+
+    <section class="hero" id="home">
+        <h2>Join Us for Tech Conference 2024!</h2>
+        <p>Join us at Tech Conference 2024 to explore the future of technology, learn from the best, and be part of the global tech community driving innovation and change.</p>
+        <a href="#registration" class="cta-button" id="registerNowBtn">Register Now</a>
+    </section>
+    
+    <section id="overview">
+        <h2>Overview</h2>
+        <p>Tech Conference 2024 is a premier global event bringing together the brightest minds in technology and innovation. It offers a platform for professionals, enthusiasts, and companies to showcase their latest advancements, share knowledge, and collaborate on the future of tech.</p>
+        <p>This year, the conference will focus on the integration of cutting-edge technologies across various industries, highlighting the importance of innovation and collaboration in driving technological progress and solving global challenges.</p>
+    </section>
+    <section id="features">
+        <h2>Key Features</h2>
+        <ul>
+            <li>Keynote Speakers</li>
+            <li>Workshops and Hands-On Labs</li>
+            <li>Panel Discussions</li>
+            <li>Exhibition Hall</li>
+            <li>Networking Opportunities</li>
+            <li>Hackathons</li>
+            <li>Product Launches</li>
+            <li>Career Fair</li>
+        </ul>
+    </section>
+    
+    <section id="themes">
+        <h2>Themes and Topics</h2>
+        <ul>
+            <li>Artificial Intelligence and Machine Learning</li>
+            <li>Cybersecurity</li>
+            <li>Cloud Computing</li>
+            <li>Blockchain Technology</li>
+            <li>Internet of Things (IoT)</li>
+            <li>Big Data and Analytics</li>
+            <li>Virtual and Augmented Reality</li>
+            <li>Robotics and Automation</li>
+            <li>Software Development and DevOps</li>
+            <li>Emerging Technologies</li>
+        </ul>
+    </section>
+
+    <section class="section event-details" id="eventDetails">
+        <h2>Event Details</h2>
+        <p><strong>Date:</strong> September 15-17, 2024</p>
+        <p><strong>Location:</strong> Bangalore International Exhibition Centre (BIEC), Bengaluru, Karnataka 560058</p>
+        <a href="#agendaDetails" class="cta-button" id="viewAgendaDetailsBtn">View Agenda Details</a>
+        <div id="agendaDetails" style="display: none;">
+            <p><strong>Event Agenda:</strong></p>
+            <ul>
+                <li><strong>September 15:</strong> Opening Keynote, Exhibitor Hall Opening, Networking Mixer</li>
+                <li><strong>September 16:</strong> Workshops, Panel Discussions, Tech Innovation Showcases</li>
+                <li><strong>September 17:</strong> Closing Keynote, Awards Ceremony, Networking Brunch</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section speaker-profiles" id="speakerProfiles">
+        <h2>Speaker Profiles</h2>
+        <div class="speaker" id="speaker1">
+            <img src="images/img13.jpeg" alt="Dr. Jane Smith">
+            <h3>Dr. Jane Smith</h3>
+            <p>Chief Technology Officer at Tech Innovators Inc.</p>
+            <p><strong>Topic:</strong> The Future of Artificial Intelligence</p>
+        </div>
+        <div id="additionalSpeakers" style="display: none;">
+            <div class="speaker">
+                <img src="images/img14.jpeg" alt="John Doe">
+                <h3>John Doe</h3>
+                <p>Lead Developer at Code Masters</p>
+                <p><strong>Topic:</strong> Building Scalable Applications</p>
+            </div>
+            <div class="speaker">
+                <img src="images/img15.webp" alt="Alice Johnson">
+                <h3>Alice Johnson</h3>
+                <p>Founder of Green Tech Solutions</p>
+                <p><strong>Topic:</strong> Sustainable Technology for the Future</p>
+            </div>
+        </div>
+        <a href="#speakers" class="cta-button" id="viewAllSpeakersBtn">See All Speakers</a>
+    </section>
+
+    <section class="section ticket-options" id="ticketOptions">
+        <h2>Ticket Options</h2>
+        <div class="ticket" id="earlyBirdTicket">
+            <h3>Early Bird Special</h3>
+            <p><strong>Price:</strong> ₹24,500 (until August 22, 2024)</p>
+        </div>
+        <div class="ticket">
+            <h3>Standard Ticket</h3>
+            <p><strong>Price:</strong> ₹32,800</p>
+        </div>
+        <div class="ticket">
+            <h3>VIP Pass</h3>
+            <p><strong>Price:</strong> ₹48,000 (Includes exclusive sessions and a meet-and-greet with speakers)</p>
+        </div>
+        <a href="#tickets" class="cta-button" id="buyTicketsBtn">Buy Tickets</a>
+    </section>
+
+    <section class="section early-bird-discounts" id="earlyBirdDiscounts">
+        <h2>Early Bird Discounts</h2>
+        <p>Save ₹8,300 if you register before August 22, 2024!</p>
+        <a href="#register" class="cta-button" id="claimEarlyBirdBtn">Claim Early Bird Discount</a>
+    </section>
+
+    <section class="section registration-form" id="registration">
+        <h2>Register for Tech Conference 2024</h2>
+        <p id="registrantsCount">Number of Registrants: <span id="registrants">0</span></p>
+        <form id="registrationForm">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+            <select id="ticketType" name="ticketType" required>
+                <option value="" disabled selected>Select Ticket Type</option>
+                <option value="Early Bird">Early Bird</option>
+                <option value="Standard">Standard</option>
+                <option value="VIP">VIP</option>
+            </select>
+            <button type="submit">Submit Registration</button>
+        </form>
+    </section>
+
+    <section class="section gallery" id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-container">
+            <img src="images/img1.jpeg" alt="conference image 1">
+            <img src="images/img2.jpeg" alt="Conference Image 2">
+            <img src="images/img3.jpeg" alt="Conference Image 3">
+            <img src="images/img4.jpeg" alt="Conference Image 4">
+            <img src="images/img5.jpeg" alt="Conference Image 5">
+            <img src="images/img6.jpeg" alt="Conference Image 6">
+            <img src="images/img7.jpeg" alt="Conference Image 7">
+            <img src="images/img8.jpeg" alt="Conference Image 8">
+            <img src="images/img9.jpeg" alt="Conference Image 9">
+            <img src="images/img10.jpeg" alt="Conference Image 10">
+            <img src="images/img11.jpeg" alt="Conference Image 11">
+            <img src="images/img12.jpeg" alt="Conference Image 12">
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>Tech Conference 2024</p>
+        <p>Bangalore International Exhibition Centre (BIEC), Bengaluru, Karnataka 560058</p>
+        <p>September 15-17, 2024</p>
+        <p>For inquiries: <a href="mailto:info@techconference2024.com" style="color: #ffffff;">info@techconference2024.com</a></p>
+        <p>Follow us: <a href="#" style="color: #ffffff;">Facebook</a> | <a href="#" style="color: #ffffff;">Twitter</a> | <a href="#" style="color: #ffffff;">LinkedIn</a></p>
+        <p>&copy; 2024 Tech Conference 2024. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

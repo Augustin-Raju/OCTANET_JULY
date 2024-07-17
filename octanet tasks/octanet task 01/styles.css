@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: url('images/background.avif') no-repeat center center fixed; 
+    background-size: cover; 
+    background-color: #f0f4f8; 
+}
+header {
+    background: #ff5500;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+header nav ul li {
+    margin: 0 15px;
+}
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+.hero {
+    background: yellow;
+    padding: 50px 20px;
+    text-align: center;
+}
+.hero h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.cta-button {
+    background: orange;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+.cta-button:hover {
+    background: darkorange;
+}
+.section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 10px;
+}
+.section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.section p {
+    font-size: 1em;
+    color: #555;
+}
+.event-details ul {
+    list-style: none;
+    padding: 0;
+}
+.event-details ul li {
+    margin-bottom: 10px;
+}
+.speaker-profiles {
+    background: #06a1a9;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.speaker {
+    text-align: center;
+    margin: 20px;
+}
+.speaker img {
+    width: 200px;
+    height: 200px;
+    border-radius: 70%;
+}
+.speaker h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+.ticket-options, .early-bird-discounts, .registration-form {
+    background: yellow;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.ticket, .early-bird-discounts, .registration-form form {
+    padding: 20px;
+    text-align: center;
+}
+.ticket h3, .early-bird-discounts h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+.ticket p, .early-bird-discounts p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.registration-form input, .registration-form select {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.registration-form button {
+    background: orange;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.registration-form button:hover {
+    background: #0056b3;
+}
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.gallery-container img {
+    width: calc(33.333% - 10px);
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+footer {
+    background: red;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
